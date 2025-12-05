@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+
+  const isActive = (path) => location.pathname === path;
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-[#050505] border-b border-[#0c0c0c]">
@@ -15,19 +18,34 @@ export default function Navbar() {
 
         {/* Desktop Menu Items */}
         <ul className="hidden lg:flex gap-6 xl:gap-10 text-[15px] text-white/80 font-medium">
-          <Link to="/" className="hover:text-white transition">
+          <Link 
+            to="/" 
+            className={`nav-link relative hover:text-white transition ${isActive('/') ? 'nav-link-active text-white' : ''}`}
+          >
             Home
           </Link>
-          <Link to="/products" className="hover:text-white transition">
+          <Link 
+            to="/products" 
+            className={`nav-link relative hover:text-white transition ${isActive('/products') ? 'nav-link-active text-white' : ''}`}
+          >
             Products
           </Link>
-          <Link to="/insights" className="hover:text-white transition">
+          <Link 
+            to="/insights" 
+            className={`nav-link relative hover:text-white transition ${isActive('/insights') ? 'nav-link-active text-white' : ''}`}
+          >
             Insights
           </Link>
-          <Link to="/about" className="hover:text-white transition">
+          <Link 
+            to="/about" 
+            className={`nav-link relative hover:text-white transition ${isActive('/about') ? 'nav-link-active text-white' : ''}`}
+          >
             About
           </Link>
-          <Link to="/contact" className="hover:text-white transition">
+          <Link 
+            to="/contact" 
+            className={`nav-link relative hover:text-white transition ${isActive('/contact') || isActive('/learn-more') ? 'nav-link-active text-white' : ''}`}
+          >
             Contact
           </Link>
         </ul>

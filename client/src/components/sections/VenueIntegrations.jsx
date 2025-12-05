@@ -4,23 +4,23 @@ import { motion } from 'framer-motion';
 const VenueIntegrations = () => {
   const venues = [
     {
-      title: 'Centralized Venues',
-      description: 'Connect to major centralized exchanges for swift and efficient trading execution',
+      title: 'Standard Brass Sheets',
+      description: 'Reliable, high-quality sheets suitable for a wide range of industrial and fabrication requirements.',
       icon: '🏢',
     },
     {
-      title: 'Decentralized Venues',
-      description: 'Access decentralized exchanges, ensuring flexibility and decentralized asset trading options',
+      title: 'Custom-Sized Sheets',
+      description: 'Brass sheets tailored to your exact dimensions for improved fit, efficiency, and minimal material waste.',
       icon: '🌐',
     },
     {
-      title: 'Prime Brokers & OTC Desks',
-      description: 'Partner with prime brokers and OTC desks for institutional-grade trading services',
+      title: 'Premium Alloy Variants',
+      description: 'Specialized brass grades designed for enhanced strength, conductivity, or corrosion resistance.',
       icon: '🤝',
     },
     {
-      title: 'Market Makers',
-      description: 'Engage seamlessly with market makers for optimal liquidity and trade execution',
+      title: 'Bulk & Industrial Supply',
+      description: 'Consistent large-volume supply backed by stable availability and dependable delivery schedules.',
       icon: '💱',
     },
   ];
@@ -35,9 +35,9 @@ const VenueIntegrations = () => {
           viewport={{ once: true }}
           className="text-center mb-10 sm:mb-12 md:mb-16"
         >
-          <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-widest mb-3 sm:mb-4 inline-block px-3 sm:px-4 py-1 sm:py-1.5 border border-gray-800 rounded-full bg-gray-900/30">VENUE INTEGRATIONS</p>
+          <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-widest mb-3 sm:mb-4 inline-block px-3 sm:px-4 py-1 sm:py-1.5 border border-gray-800 rounded-full bg-gray-900/30">BRASS SHEET SOLUTIONS</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4 sm:mt-6 px-4">
-            Maximize your trading potential
+            Explore Our Brass Sheet Solutions
           </h2>
         </motion.div>
 

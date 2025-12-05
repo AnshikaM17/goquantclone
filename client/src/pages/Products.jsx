@@ -52,7 +52,7 @@ const FAQItem = ({ question }) => {
 ---------------------------------------------*/
 export default function Products() {
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="bg-black min-h-screen text-white page-fade-in">
       
       {/* PAGE HEADER */}
       <section className="pt-40 pb-20 text-center">
@@ -101,19 +101,18 @@ export default function Products() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-semibold mb-4">
-            High-Performance Trade Execution
+            Premium Brass Sheet Products
           </h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
-            Execute trades instantly with ultra-low latency, private
-            infrastructure, and fixed predictable pricing.
+            Deliver consistent, high-purity sheets engineered for strength, uniformity, and reliable performance across industrial applications.
           </p>
 
           <ul className="space-y-5">
             {[
-              "Low-latency execution with co-located access and rapid compute speeds to reduce slippage",
-              "Private trading through self-hosted infrastructure to protect sensitive IP and reduce front-running risk",
-              "Sensible fees without volume-based fees so clients can focus on what matters most: delivering alpha",
+              "Uniform thickness and precision tolerances ensure accurate fit and consistent quality in every batch.",
+              "High-purity alloys tested to maintain durability, conductivity, and corrosion resistance.",
+              "Transparent and predictable pricing supports efficient planning for large-scale production.",
             ].map((item, idx) => (
               <li key={idx} className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full border border-[#00ff7f] flex-shrink-0" />
@@ -139,17 +138,17 @@ export default function Products() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-semibold mb-4">
-            Low-Latency Market Data
+            Detailed Material Specifications
           </h2>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Access high-speed historical & live market data reliably through redundant infrastructure.
+            Access precise, verified brass sheet specifications and testing reports—supporting accurate selection, quality assurance, and engineering decisions.
           </p>
 
           <ul className="space-y-5">
             {[
-              "Clean data with standardized formatting across exchanges & venues",
-              "Fast data using direct connections for low-latency execution",
-              "Reliable distributed cloud infrastructure for uninterrupted trading",
+              "Standardized, certified data available for every brass grade and production batch.",
+              "Detailed chemical, mechanical, chemical, and performance properties for informed planning.",
+              "Comprehensive documentation maintained for compliance, traceability, and technical evaluation.",
             ].map((item, idx) => (
               <li key={idx} className="flex gap-3">
                 <div className="w-6 h-6 rounded-full border border-[#00ff7f]" />
@@ -196,18 +195,18 @@ export default function Products() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-semibold mb-4">
-            Extensive Portfolio & Risk Management
+            Advanced Quality Assurance & Monitoring
           </h2>
 
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Optimize decisions using TCA, scenario modeling, and real-time risk tools.
+            Improve production accuracy with detailed material checks, defect detection, and real-time quality tracking tools.
           </p>
 
           <ul className="space-y-5">
             {[
-              "Comprehensive risk monitoring with real-time analytics",
-              "Analyze positions & portfolio exposures instantly",
-              "Detailed reporting on investment performance",
+              "Continuous quality monitoring powered by real-time inspection data.",
+              "Instantly evaluate sheet properties and identify production variations.",
+              "Comprehensive reports on batch quality, material performance, and consistency.",
             ].map((item, idx) => (
               <li key={idx} className="flex gap-3">
                 <div className="w-6 h-6 rounded-full border border-[#00ff7f]" />
@@ -282,10 +281,10 @@ export default function Products() {
 
         <div className="grid md:grid-cols-2 gap-6">
           {[
-            "How does GoQuant achieve high-performance execution?",
-            "Why is privacy important in execution?",
-            "How is a fixed-price model beneficial?",
-            "What’s the seamless onboarding process?",
+            "How does SKVAD achieve high-precision brass sheet production?",
+            "Why is material purity important in brass manufacturing?",
+            "How is a fixed-price model beneficial for bulk buyers?",
+            "What's the seamless ordering and delivery process?",
           ].map((q, idx) => (
             <FAQItem key={idx} question={q} />
           ))}

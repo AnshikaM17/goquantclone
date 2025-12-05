@@ -26,8 +26,8 @@ const Hero = () => {
           transition={{ delay: 0.1 }}
           className="inline-flex px-4 sm:px-6 md:px-7 py-2 bg-[#00ff7f] text-black rounded-full text-xs sm:text-sm md:text-[15px] font-medium shadow-sm mb-4 max-w-full"
         >
-          <span className="hidden sm:inline">GoDark Launch – Crypto's First Institutional Dark Pool →</span>
-          <span className="sm:hidden">GoDark Launch →</span>
+          <span className="hidden sm:inline">SKVAD Launch - India’s Next-Gen Brass Sheet Innovation →</span>
+          <span className="sm:hidden">SKVAD Launch →</span>
         </motion.div>
 
         {/* Execution Badge */}
@@ -35,9 +35,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="inline-flex items-center px-3 sm:px-4 py-1.5 border border-[#2a2a2a] rounded-md text-xs sm:text-[13px] text-[#d4d4d4] mb-6 sm:mb-8"
+          className="flex justify-center items-center px-3 sm:px-4 py-1.5 border border-[#2a2a2a] rounded-md text-xs sm:text-[13px] text-[#d4d4d4] mb-6 sm:mb-8 mx-auto w-fit"
         >
-          Execution Platform
+          <span className="text-center">Execution Platform</span>
         </motion.div>
 
         {/* Heading */}
@@ -45,10 +45,11 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-semibold text-white leading-[1.15] sm:leading-[1.1] tracking-[-0.02em] mb-8 sm:mb-10 px-2"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold text-white leading-[1.4] sm:leading-[1.35] tracking-[-0.02em] mb-8 sm:mb-10 px-2"
         >
-          High-Performance Trade <br className="hidden sm:block" />
-          <span className="sm:hidden"> </span>Execution for Digital Assets
+          Premium Manufacturing for Industrial & Commercial Applications
+ <br className="hidden sm:block" />
+          <span className="sm:hidden"> </span>
         </motion.h1>
 
         {/* Buttons */}

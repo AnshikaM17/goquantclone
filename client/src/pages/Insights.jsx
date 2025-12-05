@@ -8,15 +8,10 @@ const fadeIn = (delay = 0) => ({
 
 export default function Insights() {
   return (
-    <div className="min-h-screen bg-[#050505] text-white pt-[120px] px-6">
+    <div className="min-h-screen bg-[#050505] text-white pt-[120px] px-6 page-fade-in">
 
       {/* PAGE HEADER */}
-      <motion.div
-        variants={fadeIn(0.1)}
-        initial="hidden"
-        animate="show"
-        className="text-center mb-16"
-      >
+      <div className="text-center mb-16">
         <div className="inline-block px-3 py-1 border border-[#2a2a2a] text-xs rounded-md mb-4">
           Blog
         </div>
@@ -26,7 +21,7 @@ export default function Insights() {
         <p className="text-gray-400 mt-3 text-lg">
           Stay informed on GoQuant's latest updates.
         </p>
-      </motion.div>
+      </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
 

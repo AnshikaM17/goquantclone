@@ -9,7 +9,7 @@ import CTA from '../components/sections/CTA';
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <div className="home-page page-fade-in">
       <Hero />
       <Investors />
       <Features />

@@ -6,20 +6,20 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'How does GoQuant achieve high-performance execution?',
-      answer: 'GoQuant is a platform that allows you to trade cryptocurrencies and other digital assets.',
+      question: 'How does SKVAD ensure high-precision brass sheet manufacturing?',
+      answer: 'SKVAD uses advanced rolling, cutting, and finishing systems that maintain strict dimensional tolerances. Each batch undergoes multiple quality checks to ensure uniform thickness, smooth surfaces, and consistent performance across all sheets.',
     },
     {
-      question: 'Why is privacy important to trade execution?',
-      answer: 'GoQuant\'s self-hosted architecture allows for absolute privacy in IP protection and front-running risk prevention.',
+      question: 'Why is material purity important in brass sheet production?',
+      answer: 'Purity directly affects strength, conductivity, corrosion resistance, and overall durability. SKVAD sources high-grade brass alloys and conducts detailed composition testing, ensuring every sheet meets industry standards for reliability.',
     },
     {
-      question: 'How is a fixed-price fee model beneficial to traders?',
-      answer: 'GoQuant does not charge volume-based fees, as it inhibits clients from generating alpha by taking away from per-trade profits. Instead, GoQuant operates a fixed-price fee model, enabling clients to maximize trading opportunities while benefiting from high-performance execution.',
+      question: 'How is SKVAD\'s transparent pricing model beneficial for bulk buyers?',
+      answer: 'SKVAD\'s straightforward pricing structure eliminates hidden costs, making it easier for manufacturers to plan budgets, secure long-term supply, and maintain stable production schedules—especially during large-volume procurement.',
     },
     {
-      question: 'What\'s the seamless onboarding process?',
-      answer: 'GoQuant\'s seamless onboarding process allows clients to install the GoQuant application, on their preferred machine, at any time.',
+      question: 'What\'s the process for placing and receiving custom-size sheet orders?',
+      answer: 'Customers share their required dimensions, thickness, and grade. SKVAD prepares a detailed quotation, confirms specifications, and produces the custom sheets after thorough inspection and quality certification—ensuring accuracy and timely delivery.',
     },
   ];
 

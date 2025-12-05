@@ -4,16 +4,16 @@ import { motion } from 'framer-motion';
 const Features = () => {
   const features = [
     {
-      title: 'Fast Execution',
-      description: 'Execute low-latency trades while encountering reduced slippage',
+      title: 'Precision Manufacturing',
+      description: 'Get brass sheets engineered with micron-level accuracy for applications where consistency and reliability matter most.',
     },
     {
-      title: 'Private Trading',
-      description: 'Self-hosted infrastructure for sensitive IP and front-running risk',
+      title: 'Custom Solutions',
+      description: 'Tailored manufacturing processes to meet specific dimensional and material requirements for diverse industrial needs.',
     },
     {
-      title: 'Sensible Fees',
-      description: 'Trade without the burden of high volume-based fees',
+      title: 'Competitive Pricing',
+      description: 'Get industry-leading quality without inflated costs ,transparent pricing designed to support large-scale manufacturing needs.',
     },
   ];
 
